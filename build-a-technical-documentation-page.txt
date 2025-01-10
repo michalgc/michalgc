@@ -1,0 +1,237 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Sample Technical Documentation Pages</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+        <a class="nav-link" href="#CSS_Fundamentals">CSS Fundamentals</a>
+        <a class="nav-link" href="#JavaScript_Overview">JavaScript Overview</a>
+        <a class="nav-link" href="#Python_Overview">Python Overview</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Technical documentation provides framework for programming concepts and best practices.</p>
+            <p>Understanding documentation is required for developers.</p>
+            <p>Documentation can includes examples, code snippets, and references.</p>
+            <p>Clear and concise documentation helps teams collaborate efficiently.</p>
+            <p>This guide covers HTML, CSS, JavaScript, and Python.</p>
+            <p>It aims to provide a solid foundation for building web apps.</p>
+            <p>Each section dives into core concepts and includes basic examples.</p>
+            <p>Make sure to follow along with the examples provided.</p>
+            <p>Practice is key to mastering web development skills.</p>
+            <p>Let’s start by exploring the basics of HTML.</p>
+            <h4> Fun Facts </h4>
+            <ul>
+                <li>Documentation ensures project consistency.</li>
+                <li>It's a key component of software development.</li>
+                <li>Good documentation improves team efficiency.</li>
+                <li>It includes use cases and troubleshooting tips.</li>
+                <li>Clear writing makes complex topics accessible.</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="HTML_Basics">
+            <header>HTML Basics</header>
+            <p>HTML stands for HyperText Markup Language.</p>
+            <p>It is the standard language for creating web pages.</p>
+            <p>HTML elements are represented by tags such as &lt;div&gt;, &lt;p&gt;, and &lt;a&gt;.</p>
+            <p>These elements define the structure of a webpage.</p>
+            <p>Attributes provide additional information about elements.</p>
+            <p>For example, the href attribute is used in &lt;a&gt; tags.</p>
+            <p>HTML documents must start with a <!DOCTYPE html> declaration.</p>
+            <p>The &lt;html&gt; tag encloses all other elements on the page.</p>
+            <p>Below is a simple example:</p>
+            <code>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;head&gt;&lt;/head&gt;<br>&lt;body&gt;&lt;/body&gt;<br>&lt;/html&gt;</code>
+            <p>Continue building your knowledge by writing your first HTML page!</p>
+                      <h4> Fun Facts </h4>  
+                        <ul>
+                <li>HTML was created in 1991 by Tim Berners-Lee.</li>
+                <li>It forms the backbone of all websites.</li>
+                <li>HTML5 introduced new semantic elements.</li>
+                <li>It's supported by all major browsers.</li>
+                <li>HTML is case-insensitive.</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="CSS_Fundamentals">
+            <header>CSS Fundamentals</header>
+            <p>CSS stands for Cascading Style Sheets.</p>
+            <p>It is used to style HTML elements on a webpage.</p>
+            <p>CSS rules consist of selectors and declarations.</p>
+            <p>Selectors target HTML elements to apply styles.</p>
+            <p>Declarations include properties and values.</p>
+            <p>Example:</p>
+            <code>body {<br>    font-family: Comic Sans, sans-serif;<br>}</code>
+            <p>CSS can be applied inline, internally, or externally.</p>
+            <p>External stylesheets are linked using the &lt;link&gt; tag.</p>
+            <p>CSS enables responsive design through media queries.</p>
+            <p>For example:</p>
+            <code>@media (max-width: 600px) {<br>    body {<br>        background-color: lightblue;<br>    }<br>}</code>
+            <h4> Fun Facts </h4>
+                        <ul>
+                <li>CSS was introduced in 1996 by the W3C.</li>
+                <li>It allows for separation of content and design.</li>
+                <li>CSS3 added animations and transitions.</li>
+                <li>CSS uses a box model for layout.</li>
+                <li>It's compatible with all modern browsers.</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="JavaScript_Overview">
+            <header>JavaScript Overview</header>
+            <p>JavaScript is a programming language for the web.</p>
+            <p>It enables dynamic and interactive content.</p>
+            <p>JavaScript can manipulate HTML and CSS programmatically.</p>
+            <p>Variables store data values for later use.</p>
+            <p>Functions encapsulate reusable blocks of code.</p>
+            <p>Example:</p>
+            <code>function greet(name) {<br>    return `Hello, ${name}!`;<br>}</code>
+            <p>Event listeners respond to user interactions.</p>
+            <p>JavaScript is often used alongside libraries like jQuery or frameworks like React.</p>
+            <p>It is executed in the browser’s JavaScript engine.</p>
+            <p>Learn more by writing and testing simple scripts.</p>
+            <h4> Fun Facts </h4>
+                        <ul>
+                <li>JavaScript was created in 10 days in 1995.</li>
+                <li>It runs on the client side for faster execution.</li>
+                <li>JavaScript is single-threaded but asynchronous.</li>
+                <li>Popular frameworks include React and Angular.</li>
+                <li>It's supported by all modern browsers.</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Python_Overview">
+            <header>Python Overview</header>
+            <p>Python is a versatile programming language.</p>
+            <p>It is widely used in web development, data science, and automation.</p>
+            <p>Python's syntax is beginner-friendly with simple syntax.</p>
+            <p>Key features include dynamic typing and interpreted execution.</p>
+            <p>Python supports multiple programming paradigms such as procedural, object-oriented, and functional programming.</p>
+            <p>Example:</p>
+            <code>def greet(name):<br>    return f"Hello, {name}!"</code>
+            <p>Popular frameworks like Django and Flask are built using Python.</p>
+            <p>Python also excels in data analysis with libraries like Pandas and NumPy.</p>
+            <p>Its large community ensures ample resources and support for developers.</p>
+            <p>Start coding in Python to explore its vast capabilities!</p>
+            <h4> Fun Facts </h4>
+              <ul>
+                <li>Python was created by Guido van Rossum in 1991.</li>
+                <li>Its name was inspired by "Monty Python."</li>
+                <li>It powers popular apps like Instagram and Spotify.</li>
+                <li>Python is highly extensible with third-party libraries.</li>
+                <li>It supports artificial intelligence and machine learning.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+body {
+    font-family: Times New Roman, sans-serif;
+    line-height: 1.65;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+code {
+    display: block;
+    background: #f4f4f4;
+    border-left: 5px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    overflow-x: auto;
+}
+
+p {
+    margin: 10px 5px;
+}
+
+h4 {margin-left: 5px;}
+
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+#navbar header {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background: purple;
+}
+
+
+#main-doc {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.main-section {
+    margin-bottom: 40px;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
+}
+
+
+** end of undefined **
+

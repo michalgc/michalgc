@@ -1,0 +1,96 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="main">
+    <h1 id="title">Dr. Norman Borlaug</h1>
+    
+    <div id="img-div">
+      <img id="image" src="https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1705/3431665/1000w_q95.jpg" alt="Dr. Norman Borlaug" />
+      <figcaption id="img-caption">Dr. Norman Borlaug, "Father of the Green Revolution"</figcaption>
+    </div>
+
+    <section id="tribute-info">
+      <p>Dr. Norman Borlaug, an American agronomist, humanitarian, and Nobel laureate, is often credited with saving over a billion lives. He developed high-yield and disease-resistant crops that helped alleviate global hunger, particularly in developing nations. His work during the Green Revolution significantly transformed agriculture and remains a cornerstone of modern food security efforts.</p>
+    </section>
+
+    <a id="tribute-link" href="https://www.pbs.org/wgbh/americanexperience/features/no-silver-bullet-solution-norman-borlaug-and-green-revolution/" target="_blank">Learn more about Dr. Borlaug's incredible life and achievements</a>
+  </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+#img-div {
+  margin: 20px 0;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+#img-caption {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+#tribute-info {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+#tribute-link {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+#tribute-link:hover {
+  color: purple;
+}
+
+** end of undefined **
+
